@@ -2,8 +2,9 @@ part of 'portfolio_bloc.dart';
 abstract class ViewEvents{
 
 }
-class PortfolioInitialState extends ViewState{
-  PortfolioInitialState();
+
+class ProjectInitial extends ViewEvents{
+  ProjectInitial();
 }
 
 class Resume extends ViewEvents{
@@ -17,7 +18,15 @@ class ViewProject extends ViewEvents{
   ViewProject( {
     required this.projectName
 });
-
 }
+class Data extends ViewEvents{
+
+Data();
+}
+class Git extends ViewEvents{
+
+  Git();
+}
+
 
 

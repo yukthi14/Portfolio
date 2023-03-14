@@ -6,7 +6,11 @@ static const  String name = "Yukthi J Achar";
 static const  String username = "@yukthi";
 static const String contactEmail = "yukthiachar@gmail.com";
 static const String aboutMeSummary = '''
-Currently an engineering student with full of enthusiasm and leadership quality, good at problem solving .
+* Currently an engineering student with full of enthusiasm and leadership quality, good at problem solving .
+* I easily get adopted to the environment and workspace.
+* Some of the programming languages which i know are dart(flutter) , java , c , c ++ , sql , python .
+* Strong in flutter which uses dart programming, I have done many projects related to flutter in app and website.
+* In intermediate level comes java, all other languages i have a good knowledge about the syntax and usage.
 ''';
 static const String studentContact= "Student Contact";
 static const String stuConDes="Contact app using flutter, sql lite and firebase.";
@@ -19,6 +23,9 @@ static const String calDes="Calculator operations and functions.";
 
 static const String blocConnection= "Bloc Connection";
 static const String blocDes="How internet connection takes place using block.";
+
+static const String errorMessage="Something went wrong !!!!!!!!!!";
+static const String mailTo="Mail To : yukthiachar@gmail.com ";
 
 }
 class Lists {
