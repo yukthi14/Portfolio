@@ -3,6 +3,7 @@ import 'package:portfolio/constants/colors.dart';
 import 'package:portfolio/constants/const_sized_box.dart';
 import 'package:portfolio/constants/string.dart';
 import 'package:portfolio/constants/text_style.dart';
+import 'package:portfolio/screens/Skills.dart';
 import 'package:portfolio/screens/about_me.dart';
 import 'package:portfolio/screens/contact.dart';
 import 'package:portfolio/screens/education.dart';
@@ -25,6 +26,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     'About',
     'Eduction',
     'Experience',
+    'Skills',
     'Contact',
   ];
   var menuIndex = 0;
@@ -33,6 +35,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     AboutMeScreen(),
     EducationalScreen(),
     ExperienceScreen(),
+    SkillsDetails(),
     ContactScreen(),
   ];
   Future scrollTo({required int index}) async {
@@ -73,7 +76,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     size: 32,
                     color: AppColor.white,
                   ),
-                  color: AppColor.white,
+                  color: AppColor.lightBlue,
                   position: PopupMenuPosition.under,
                   constraints: BoxConstraints.tightFor(width: size.width * 0.9),
                   itemBuilder: (BuildContext context) => menuItems
@@ -120,7 +123,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       );
                     },
                     separatorBuilder: (context, index) =>
-                        Constants.sizedBox(width: 8),
+                        Constants.sizedBox(width: 10),
                     itemCount: menuItems.length,
                     shrinkWrap: true,
                     scrollDirection: Axis.horizontal,
