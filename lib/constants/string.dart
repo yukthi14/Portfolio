@@ -37,7 +37,7 @@ class Strings {
   static const String email = "Email";
   static const String socialProfiles = "Social Profiles";
   static const String animatedText = "Flutter Developer";
-
+  static const String skills = "Skills";
   static const String name = "Yukthi J Achar";
 
   static const String aboutMeSummary = '''
