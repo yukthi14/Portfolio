@@ -52,6 +52,7 @@ class _ExperienceScreenState extends State<ExperienceScreen> {
                       description: Strings.des1)),
               Constants.sizedBox(height: 40),
               educationalDetails(
+                  height: 360,
                   hover: isHover,
                   companyName: Strings.companyName2,
                   role: Strings.job,
