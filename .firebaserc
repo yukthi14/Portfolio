@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "portfolio-ac1de"
+  },
+  "targets": {
+    "portfolio-ac1de": {
+      "hosting": {
+        "portfolio-ac1de": [
+          "portfolio-ac1de"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
