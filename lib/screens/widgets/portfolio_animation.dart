@@ -35,8 +35,8 @@ class _PortfolioAnimationState extends State<PortfolioAnimation>
     return SlideTransition(
       position: _animation,
       child: Container(
-        width: 260,
-        height: 260,
+        width: 200,
+        height: 200,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(200),
           color: AppColor.bgColor,
