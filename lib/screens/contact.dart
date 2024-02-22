@@ -52,11 +52,11 @@ class _ContactScreenState extends State<ContactScreen> {
                 style: AppTextStyles.headingStyles(fontSize: 30),
               ))),
           Constants.sizedBox(height: 60),
-          Row(
+          Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               emailAddress(width: 350, height: 150),
-              Constants.sizedBox(width: 30),
+              Constants.sizedBox(height: 30),
               socialLinks(width: 350, height: 150),
             ],
           ),
@@ -83,7 +83,7 @@ class _ContactScreenState extends State<ContactScreen> {
           ),
         ],
       ),
-      color: AppColor.bgColor,
+      color: AppColor.bgColor2,
       paddingWidth: size.width * 0.1,
     );
   }
@@ -94,7 +94,7 @@ class _ContactScreenState extends State<ContactScreen> {
       height: height,
       alignment: Alignment.center,
       padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 20),
-      decoration: BoxDecoration(color: AppColor.bgColor2, boxShadow: [
+      decoration: BoxDecoration(color: AppColor.bgColor, boxShadow: [
         BoxShadow(
           color: AppColor.black,
           spreadRadius: 4.0,
@@ -108,7 +108,7 @@ class _ContactScreenState extends State<ContactScreen> {
           Row(
             children: [
               CircleAvatar(
-                  backgroundColor: AppColor.bgColor,
+                  backgroundColor: AppColor.bgColor2,
                   radius: 25,
                   child: Container(
                     decoration: BoxDecoration(
@@ -146,7 +146,7 @@ class _ContactScreenState extends State<ContactScreen> {
       height: height,
       alignment: Alignment.center,
       padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 20),
-      decoration: BoxDecoration(color: AppColor.bgColor2, boxShadow: [
+      decoration: BoxDecoration(color: AppColor.bgColor, boxShadow: [
         BoxShadow(
           color: AppColor.black,
           spreadRadius: 4.0,
@@ -160,7 +160,7 @@ class _ContactScreenState extends State<ContactScreen> {
           Row(
             children: [
               CircleAvatar(
-                  backgroundColor: AppColor.bgColor,
+                  backgroundColor: AppColor.bgColor2,
                   radius: 25,
                   child: Container(
                     decoration: BoxDecoration(
@@ -184,7 +184,7 @@ class _ContactScreenState extends State<ContactScreen> {
               Padding(
                 padding: const EdgeInsets.only(left: 70),
                 child: CircleAvatar(
-                    backgroundColor: AppColor.bgColor,
+                    backgroundColor: AppColor.bgColor2,
                     radius: 20,
                     child: GestureDetector(
                       onTap: () {
@@ -203,7 +203,7 @@ class _ContactScreenState extends State<ContactScreen> {
               ),
               Constants.sizedBox(width: 20),
               CircleAvatar(
-                  backgroundColor: AppColor.bgColor,
+                  backgroundColor: AppColor.bgColor2,
                   radius: 20,
                   child: GestureDetector(
                     onTap: () {
@@ -222,7 +222,7 @@ class _ContactScreenState extends State<ContactScreen> {
                   )),
               Constants.sizedBox(width: 20),
               CircleAvatar(
-                  backgroundColor: AppColor.bgColor,
+                  backgroundColor: AppColor.bgColor2,
                   radius: 20,
                   child: GestureDetector(
                     onTap: () {
