@@ -52,11 +52,10 @@ class _HomeScreenState extends State<HomeScreen> {
     final Size size = MediaQuery.of(context).size;
     return Responsive(
       mobile: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           const PortfolioAnimation(),
-          Constants.sizedBox(height: 25),
           buildHomePersonalInfo(size),
         ],
       ),
