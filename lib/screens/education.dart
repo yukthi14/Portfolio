@@ -24,7 +24,7 @@ class _EducationalScreenState extends State<EducationalScreen> {
     final Size size = MediaQuery.of(context).size;
     return Responsive(
       mobile: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           FadeInDown(
               duration: const Duration(milliseconds: 1200),
