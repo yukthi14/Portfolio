@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         PointerDeviceKind.unknown
       }),
       debugShowCheckedModeBanner: false,
-      title: 'Portfolio',
+      title: 'Yukthi J Achar',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
