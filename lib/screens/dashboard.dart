@@ -22,12 +22,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
   final ItemScrollController _itemScrollController = ItemScrollController();
   final onMenuHover = Matrix4.identity()..scale(1.0);
   final menuItems = <String>[
-    'Home',
-    'About',
-    'Eduction',
-    'Experience',
-    'Skills',
-    'Contact',
+    Strings.home,
+    Strings.about,
+    Strings.education,
+    Strings.experience,
+    Strings.skills,
+    Strings.contact,
   ];
   var menuIndex = 0;
   final screensList = const <Widget>[
