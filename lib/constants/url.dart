@@ -1,7 +1,7 @@
 class Links {
   static const String imagePath = "assets/profile.jpg";
   static const String resumeLink =
-      "https://drive.google.com/file/d/1JjRRvE9zYbNTz-A-8IVEKhqYk29W6Knv/view?usp=drive_link";
+      "https://drive.google.com/file/d/18qMneCX7aMOtzXzpgZQT2aaYnul8TtgM/view?usp=drive_link";
   static const String studentContactLink =
       "https://github.com/yukthi14/student_contact";
   static const String dataStructureLink =
